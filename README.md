@@ -68,26 +68,24 @@ Run the code to preprocess the data, visualize sales trends, and generate foreca
 
 The visualizations will display daily and monthly sales trends, moving averages, and time series decompositions.
 
-**Data Preprocessing**
-
+- **Data Preprocessing**
 The data is first read from a CSV file and grouped by order_id, summing the quantity.
 The order_date is converted to a datetime format for easier analysis.
 
 Specific dates and orders can be filtered out to refine the dataset.
 
-**Sales Visualization**
-
+- **Sales Visualization**
 Daily and monthly sales trends are visualized using line plots.
 Rolling averages (7-day and 3-month) are calculated to smooth the sales data for better insight.
 
-**Time series decomposition** is performed to extract trend, seasonal, and residual components from the sales data.
+- **Time series decomposition** is performed to extract trend, seasonal, and residual components from the sales data.
 Forecasting
 
-**The Prophet** library is utilized to forecast future sales based on historical data.
+- **The Prophet** library is utilized to forecast future sales based on historical data.
 
-Historical data is prepared, and the model is fit to make predictions for the next 90 days.
+- Historical data is prepared, and the model is fit to make predictions for the next 90 days.
 
-Confidence intervals for the forecast are also displayed in the visualizations.
+- Confidence intervals for the forecast are also displayed in the visualizations.
 
 ## Conclusion
 This project provides a comprehensive analysis of sales data, allowing for insightful visualizations and robust forecasting. You can modify the code to suit different datasets or forecasting needs.
