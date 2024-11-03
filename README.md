@@ -19,10 +19,11 @@ Make sure to have the following Python packages installed:
 
 The main data source is a CSV file named sales.csv, which should be placed in the same directory as the notebook. The data includes information on product sales, which is utilized for the analysis.
 
-Key Features
-Data Cleaning: The notebook processes the sales data by removing unnecessary columns and checking for missing values.
+##Key Features
 
-Product Encoding: Products are encoded to facilitate the application of the Apriori algorithm.
+*Data Cleaning: The notebook processes the sales data by removing unnecessary columns and checking for missing values.
+
+*Product Encoding: Products are encoded to facilitate the application of the Apriori algorithm.
 
 Frequent Itemset Mining: The Apriori algorithm is employed to identify frequently bought product combinations based on a defined minimum support threshold.
 
