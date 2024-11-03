@@ -1,4 +1,4 @@
-# Organic-Grocery-Association-Rules
+# Organic-Grocery-Association-Rules & Sales Trend
 # Sales Analysis and Association Rule Mining
 
 ## Overview
