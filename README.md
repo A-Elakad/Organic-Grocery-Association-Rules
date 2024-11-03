@@ -72,7 +72,7 @@ The visualizations will display daily and monthly sales trends, moving averages,
 The data is first read from a CSV file and grouped by order_id, summing the quantity.
 The order_date is converted to a datetime format for easier analysis.
 
-Specific dates and orders can be filtered out to refine the dataset.
+- Specific **dates & orders** had to be filtered out to refine the dataset.
 
 - **Sales Visualization**
 Daily and monthly sales trends are visualized using line plots.
