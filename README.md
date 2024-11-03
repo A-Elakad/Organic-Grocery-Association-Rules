@@ -37,6 +37,6 @@ The results, including frequent itemsets and association rules, will be saved as
 ## Results
 The notebook will output:
 
-A histogram visualizing the distribution of product quantities per order.
-A list of frequent itemsets with their support values.
-Association rules including antecedents and consequents with confidence scores.
+- A histogram visualizing the distribution of product quantities per order.
+- A list of frequent itemsets with their support values.
+- Association rules including antecedents and consequents with confidence scores.
