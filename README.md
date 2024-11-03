@@ -91,4 +91,10 @@ Forecasting
 This project provides a comprehensive analysis of sales data, allowing for insightful visualizations and robust forecasting. You can modify the code to suit different datasets or forecasting needs.
 
 Some Results:
+![newplot (1)](https://github.com/user-attachments/assets/a0675992-a205-438d-b291-244212106e50)
+
+![No  of order per day  plt](https://github.com/user-attachments/assets/de27ed62-1721-4212-90d9-b92cbb4fd295)
+
+![Sales Forcast Plt](https://github.com/user-attachments/assets/4e329257-af0c-4af4-9bd6-ea687581e393)
+
 
