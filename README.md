@@ -40,3 +40,4 @@ The notebook will output:
 - A histogram visualizing the distribution of product quantities per order.
 - A list of frequent itemsets with their support values.
 - Association rules including antecedents and consequents with confidence scores.
+![Order Size Dis](https://github.com/user-attachments/assets/d5367bdb-d987-4364-aa53-c26a25871e0e)
