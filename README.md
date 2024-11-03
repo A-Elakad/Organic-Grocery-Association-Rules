@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains a Jupyter Notebook that performs sales data analysis and discovers association rules using the Apriori algorithm. The analysis is aimed at understanding customer purchasing behavior by identifying frequently bought products together.
+This repository contains a Colab Notebook that performs sales data analysis and discovers association rules using the Apriori algorithm. The analysis is aimed at understanding customer purchasing behavior by identifying frequently bought products together.
 
 ## Requirements
 
