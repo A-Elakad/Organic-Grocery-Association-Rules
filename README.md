@@ -21,7 +21,7 @@ The main data source is a CSV file named sales.csv, which should be placed in th
 
 ##Key Features
 
-*Data Cleaning*: The notebook processes the sales data by removing unnecessary columns and checking for missing values.
+*Data Cleaning* : The notebook processes the sales data by removing unnecessary columns and checking for missing values.
 
 *Product Encoding: Products are encoded to facilitate the application of the Apriori algorithm.
 
