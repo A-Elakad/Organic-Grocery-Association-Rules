@@ -41,3 +41,44 @@ The notebook will output:
 - A list of frequent itemsets with their support values.
 - Association rules including antecedents and consequents with confidence scores.
 ![Order Size Dis](https://github.com/user-attachments/assets/d5367bdb-d987-4364-aa53-c26a25871e0e)
+
+
+
+# Sales Forecasting Analysis
+
+## Overview
+
+This project involves analyzing and forecasting sales data using Python libraries such as Pandas, NumPy, Plotly, and Prophet. The goal is to visualize sales trends, understand seasonal patterns, and predict future sales quantities and revenues.
+
+## Installation
+
+To run this project, you need to have the following Python libraries installed:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- statsmodels
+- prophet
+- plotly
+
+Load your sales data from a CSV file. Ensure that the CSV file contains the required columns: order_id, quantity, order_total_products_price, order_delivery_cost, order_total_price, order_customer_type, and order_date.
+
+Run the code to preprocess the data, visualize sales trends, and generate forecasts.
+
+The visualizations will display daily and monthly sales trends, moving averages, and time series decompositions.
+
+Data Preprocessing
+The data is first read from a CSV file and grouped by order_id, summing the quantity.
+The order_date is converted to a datetime format for easier analysis.
+Specific dates and orders can be filtered out to refine the dataset.
+Sales Visualization
+Daily and monthly sales trends are visualized using line plots.
+Rolling averages (7-day and 3-month) are calculated to smooth the sales data for better insight.
+Time series decomposition is performed to extract trend, seasonal, and residual components from the sales data.
+Forecasting
+The Prophet library is utilized to forecast future sales based on historical data.
+Historical data is prepared, and the model is fit to make predictions for the next 90 days.
+Confidence intervals for the forecast are also displayed in the visualizations.
+Conclusion
+This project provides a comprehensive analysis of sales data, allowing for insightful visualizations and robust forecasting. You can modify the code to suit different datasets or forecasting needs.
